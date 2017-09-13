@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="babasport-pojo:war">
+    <output-path>$PROJECT_DIR$/../babasport-pojo/target</output-path>
+    <root id="archive" name="babasport-pojo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="babasport-pojo:war exploded" />
+    </root>
+  </artifact>
+</component>

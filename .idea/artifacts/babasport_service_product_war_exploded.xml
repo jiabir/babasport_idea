@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="babasport-service-product:war exploded">
+    <output-path>$PROJECT_DIR$/../babasport-service-product/target/babasport-service-product</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="babasport-service-product" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.itheima.babasport:babasport-dao:0.0.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.itheima.babasport:babasport-pojo:0.0.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.itheima.babasport:babasport-common:0.0.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.itheima.babasport:babasport-interface:0.0.1-SNAPSHOT" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../babasport-service-product/target/babasport-service-product/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="babasport-service-product/web/Web" />
+    </root>
+  </artifact>
+</component>
